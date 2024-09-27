@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3282c4;
+
+}
+.main-container{
+    background-color: white;
+    height: 90vh;
+    padding: 20px;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 30px;
+}
+.main-container .first-row, .second-row, .third-row, .fourth-row {
+    display: flex;
+    justify-content: space-evenly;
+}
