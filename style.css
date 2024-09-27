@@ -13,9 +13,71 @@ body{
     padding: 20px;
     width: 80%;
     margin: 30px auto;
-    border-radius: 30px;
+    border-radius: 10px;
+    font-family: sans-serif;
 }
-.main-container .first-row, .second-row, .third-row, .fourth-row {
+.main-container h1 {
+    width: 90%;
+    margin: 20px auto;
+}
+.grid{
+    width: 90%;
+    height: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin: 20px auto;
+}
+.input input {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+.input select {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    outline: none;
+}
+.input h4{
+    font-size: 14px;
+    margin: 5px 0;
+}
+.input-6 input {
+    width: 25px;
+    height: 15px;
+}
+.input-13 input {
+    width: 25px;
+    height: 15px;
+}
+.input-14 input {
+    width: 25px;
+    height: 15px;
+}
+.input-15 input {
+    width: 25px;
+    height: 15px;
+}
+.input-16 input {
+    width: 25px;
+    height: 15px;
+}
+.btn {
     display: flex;
-    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+}
+.btn button {
+    width: 170px;
+    height: 35px;
+    color: #fff;
+    background-color: #3282c4;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    margin: 0 5px;
 }

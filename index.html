@@ -74,127 +74,87 @@
         <div class="heading">
             <h1>Registration Form</h1>
         </div>
-        <div class="first-row">
-            <div class="first-name">
-                <label for="Firstname">First name</label><br>
-                <input type="text" class="Firstname" placeholder="Enter First Name">
+        <div class="grid">
+
+            <div class="input input-1">
+                <h4>First Name</h4>
+                <input type="text">
             </div>
-            <div class="last-name">
-                <label for="Last Name">Last Name</label><br>
-                <input type="text" class="Firstname" placeholder="Enter First Name">
+            <div class="input input-2">
+                <h4>Last Name</h4>
+                <input type="text">
             </div>
-            <div class="dob">
-                <label for="Dateofbirth">Date Of Birth</label><br>
-                <input type="date" class="Dateofbirth">
+            <div class="input input-3">
+                <h4>Date of Birth</h4>
+                <input type="date">
             </div>
+            <div class="input input-4">
+                <h4>Email</h4>
+                <input type="email">
+            </div>
+            <div class="input input-5">
+                <h4>Mobile Number</h4>
+                <input type="number">
+            </div>
+            <div class="input input-6">
+                <h4>Gender</h4>
+               Male <input type="radio" name="myGender">
+               Female <input type="radio" name="myGender">
+            </div>
+            <div class="input input-7">
+                <h4>Join Date</h4>
+                <input type="date">
+            </div>
+            <div class="input input-8">
+                <h4>Father's Name</h4>
+                <input type="text">
+            </div>
+            <div class="input input-9">
+                <h4>Father's Mobile Number</h4>
+                <input type="number">
+            </div>
+            <div class="input input-10">
+                <h4>last Graduation</h4>
+                <input type="text">
+            </div>
+            <div class="input input-11">
+                <h4>Technology</h4>
+               <select name="" id=""> 
+                <option value="">Select Technology</option>
+                <option value="">Web Tech</option>
+               </select>
+            </div>
+            <div class="input input-12">
+                <h4>LinkedIn</h4>
+                <input type="text">
+            </div>
+            <div class="input input-13">
+                <h4>Mode</h4>
+                On-Site <input type="radio" name="myGender">
+                Remote <input type="radio" name="myGender">
+            </div>
+            <div class="input input-14">
+                <h4>Session</h4>
+                Full Time <input type="radio" name="myGender">
+                Part Time <input type="radio" name="myGender">
+            </div>
+            <div class="input input-15">
+                <h4>Currently Working</h4>
+                Yes <input type="radio" name="myGender">
+                No <input type="radio" name="myGender">
+            </div>
+            <div class="input input-16">
+                <h4>System Facility</h4>
+                Yes <input type="radio" name="myGender">
+                No <input type="radio" name="myGender">
+            </div>
+
+
         </div>
-
-        <div class="second-row">
-            <div class="email">
-                <label for="myemail">Email</label><br>
-                <input type="email" class="myemail" placeholder="Email">
-            </div>
-            <div class="number">
-                <label for="mynumber">Mobile Number</label><br>
-                <input type="number" class="mynumber" placeholder="Mobile Number">
-            </div>
-
-            <div class="gender">
-                <legend>Gender</legend>
-                <label for="gendermale">Male</label>
-                <input type="radio" class="gendermale">
-                <label for="genderfemale">Female</label>
-                <input type="radio" class="genderfemale">
-            </div>
+        <div class="btn">
+            <button>Cancel</button>
+            <button>Submit</button>
         </div>
-
-        <div class="third-row">
-            <div class="joindate">
-                <label for="joindate">Join Date</label> <br>
-            <input type="date" class="joindate">
-            </div>
-            <div class="fathername">
-                <label for="yourfather">Father's Name</label> <br>
-                <input type="text" placeholder="Enter Father's Name">
-            </div>
-            <div>
-                <label for="Fathermobile">Father's Mobile Number</label> <br>
-                <input type="number" class="Fathermobile">
-            </div>
-        </div>
-
-        <div class="fourth-row">
-            <div class="mygraduation">
-                <label for="graduation">Last Graduation</label><br>
-            <input type="text" class="graduation">
-            </div>
-            <div class="Technology">
-            <label for="Tech">Technology</label><br>
-            <select name="Technology" class="Tech" placeholder="Select The Technology">
-                <option value="Basic Web Tech">Basic Web Tech</option>
-                <option value="Asp Dot Net">Asp Dot Net</option>
-                <option value="Python">Python</option>
-                <option value="Java">Java</option>
-                <option value="Node js">Node Js</option>
-                <option value="Angular js">React Js</option>
-                <option value="Angular js">Angular Js</option>
-                <option value="Full Stack">Full Stack</option>
-                <option value="Digital Marketing">Digital Marketing</option>
-                <option value="Flutter">Flutter</option>
-                </select>
-            </div>
-            <div class="myLinkedin">
-                <label for="myLinkedin">myLinkedin</label><br>
-            <input type="text" class="myLinkedin">
-            </div>
-        </div> 
-
-        <div class="fifth-row">
-            <div class="mode">
-                <legend>Mode</legend>
-                <label for="remote">Remote</label>
-                <input type="radio" class="remote">
-                <label for="onsite">On-site</label>
-                <input type="radio" class="onsite">
-            </div>
-            <div class="Session">
-                <legend>Session</legend>
-                <label for="fulltime">Full time</label>
-                <input type="radio" class="fulltime">
-                <label for="parttime">Part time</label>
-                <input type="radio" class="parttime">
-            </div>
-            <div>
-                <legend>Currently Working</legend>
-                <label for="yeah">Yes</label>
-                <input type="radio" class="yeah">
-                <label for="nope">No</label>
-                <input type="radio" class="nope">
-            </div>
-         
-            <div class="Facility">
-                <legend>System Facility</legend>
-                <label for="yeah2">Yes</label>
-                <input type="radio" class="yeah2">
-                <label for="nope2">No</label>
-                <input type="radio" class="nope2">
-            </div>
-        </div>
-            <div class="sixth-row">
-                <input type="button" value="Cancel">
-                <input type="button" value="Submit">
-            </div>
-
-
-
-    </div>
-
-  
-</div>
-
-
-
-
 
     </div>
 
